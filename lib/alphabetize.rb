@@ -5,5 +5,5 @@ def alphabetize(arr)
     arr.sort_by do |word| 
      alphabet.index(word[0])
     end 
-    arr 
+  arr 
 end
