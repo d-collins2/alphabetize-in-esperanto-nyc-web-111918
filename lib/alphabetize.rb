@@ -3,12 +3,9 @@ def alphabetize(arr)
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   alphabet = esperanto_alphabet.chars 
     arr.sort_by do |word| 
-    if word.split.count > 1 
-      word.split 
-     alphabet.index(word[0])
-    end 
+      word.chars.map do |letter|
+        esperanto_alphabet.index(letter)
+      end
+  end 
   arr 
 end
-  word.split('').map do |letter|
-      esperanto_alphabet.index(letter)
-    end
