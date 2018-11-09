@@ -1,6 +1,6 @@
 def alphabetize(arr)
   # code here
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr = ESPERANTO_ALPHABET.chars 
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr = alphabet.chars 
   p arr 
 end
