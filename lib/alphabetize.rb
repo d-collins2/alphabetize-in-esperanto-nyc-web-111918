@@ -9,3 +9,6 @@ def alphabetize(arr)
     end 
   arr 
 end
+  word.split('').collect do |letter|
+      esperanto_alphabet.index(letter)
+    end
