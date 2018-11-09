@@ -7,5 +7,4 @@ def alphabetize(arr)
       alphabet.index(letter)
     end
   end 
-  arr 
 end
